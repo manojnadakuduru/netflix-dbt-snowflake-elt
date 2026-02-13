@@ -232,9 +232,6 @@ dbt docs serve
 | **Cloud Storage** | AWS S3 | Raw data lake |
 | **Data Warehouse** | Snowflake | Cloud data platform |
 | **Transformation** | dbt Core 1.9.0 | SQL-based transformations |
-| **Orchestration** | dbt | Dependency management & testing |
-| **BI Tools** | Power BI, Tableau, Looker Studio | Data visualization |
-| **Version Control** | Git & GitHub | Code management |
 
 ---
 
