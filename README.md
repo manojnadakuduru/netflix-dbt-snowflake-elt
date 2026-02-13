@@ -41,19 +41,8 @@ The end result is a robust, scalable, and well-governed data pipeline that serve
 
 ## 🏗 Architecture
 
-```
-┌─────────────┐      ┌──────────────┐      ┌─────────────┐      ┌──────────────┐
-│   Netflix   │      │   Amazon S3  │      │  Snowflake  │      │  BI Tools    │
-│  CSV Data   │─────▶│  Raw Storage │─────▶│  Data WH    │─────▶│ Power BI     │
-└─────────────┘      └──────────────┘      └─────────────┘      │ Tableau      │
-                                                   │              │ Looker       │
-                                                   │              └──────────────┘
-                                                   ▼
-                                            ┌─────────────┐
-                                            │  dbt Core   │
-                                            │ Transform   │
-                                            └─────────────┘
-```
+
+![Architecture Preview](https://github.com/manojnadakuduru/netflix-dbt-snowflake-elt/Architecture.png)
 
 ### Pipeline Flow
 
@@ -64,10 +53,6 @@ The end result is a robust, scalable, and well-governed data pipeline that serve
 ---
 
 ## 🧱 Data Modeling Strategy
-
-### 📊 Architecture Diagram
-
-![Data Pipeline Architecture](path/to/your/architecture-diagram.png)
 
 ### Layer Structure
 
