@@ -42,7 +42,7 @@ The end result is a robust, scalable, and well-governed data pipeline that serve
 ## 🏗 Architecture
 
 
-![Architecture Preview](https://github.com/manojnadakuduru/netflix-dbt-snowflake-elt/Architecture.png)
+![Architecture Preview](https://github.com/manojnadakuduru/netflix-dbt-snowflake-elt/blob/main/Architecture.png)
 
 ### Pipeline Flow
 
