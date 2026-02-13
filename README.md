@@ -17,10 +17,8 @@
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [Setup Instructions](#-setup-instructions)
-- [Usage](#-usage)
 - [Engineering Concepts](#-engineering-concepts-demonstrated)
 - [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
@@ -424,23 +422,6 @@ Opens documentation site at `http://localhost:8080`.
 
 ---
 
-### Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `dbt run` | Run all models |
-| `dbt run --select model_name` | Run specific model |
-| `dbt run --select model_name+` | Run model and downstream dependencies |
-| `dbt run --select +model_name` | Run model and upstream dependencies |
-| `dbt test` | Run all tests |
-| `dbt test --select model_name` | Test specific model |
-| `dbt snapshot` | Run snapshots |
-| `dbt seed` | Load seed files |
-| `dbt clean` | Delete compiled files |
-| `dbt deps` | Install packages |
-| `dbt source freshness` | Check source data freshness |
-
----
 
 ## 🎓 Engineering Concepts Demonstrated
 
@@ -467,57 +448,12 @@ This project showcases **production-grade analytics engineering practices**:
 
 ### 🧩 Code Quality
 - ✅ **Modular SQL engineering** with reusable components
-- ✅ **DRY principles** through macros
-- ✅ **Version control** best practices
 - ✅ **Analytics-ready marts** for business users
 
-### 🚀 DataOps
-- ✅ **Dependency management** and orchestration
-- ✅ **Automated testing** in CI/CD pipeline
-- ✅ **Environment management** (dev/staging/prod)
-- ✅ **Self-service analytics** enablement
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **MovieLens** for providing the sample dataset
-- **dbt Labs** for the amazing transformation framework
-- **Snowflake** for the cloud data platform
-- The **analytics engineering community** for best practices and inspiration
-
----
 
 ## 📬 Contact
 
-**Your Name** - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
-
-**Project Link**: [https://github.com/yourusername/netflix-analytics-engineering](https://github.com/yourusername/netflix-analytics-engineering)
+**https://www.linkedin.com/in/manojnadakuduru/** 
 
 ---
 
-<div align="center">
-
-**⭐ If you found this project helpful, please consider giving it a star!**
-
-Made with ❤️ by [Your Name]
-
-</div>
